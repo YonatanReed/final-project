@@ -1,0 +1,46 @@
+{
+  "name": "new-explorer-api",
+  "version": "1.0.0",
+  "description": "`/data` — JSON files to temporarily emulate database integration.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YonatanReed/around-express.git"
+  },
+  "keywords": [],
+  "author": "Yonatan Reed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YonatanReed/around-express/issues"
+  },
+  "homepage": "https://yonatanreed.mooo.com/",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^15.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.2.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "limiter": "^2.1.0",
+    "mongoose": "^6.11.1",
+    "react-router-dom": "^5.3.4",
+    "validator": "^13.9.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.22"
+  }
+}

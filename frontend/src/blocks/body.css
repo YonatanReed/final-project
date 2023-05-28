@@ -1,0 +1,12 @@
+.body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #1a1b22;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}

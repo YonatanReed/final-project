@@ -1,0 +1,10 @@
+.saved-news {
+  background-color: #f5f6f7;
+  padding: 62px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .saved-news {
+    padding: 24px 0 13px;
+  }
+}

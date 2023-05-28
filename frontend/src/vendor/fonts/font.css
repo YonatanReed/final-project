@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./roboto-400-regular.woff") format("woff"),
+    url("./roboto-400-regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./roboto-500.woff") format("woff"),
+    url("./roboto-500.woff") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("./roboto-slab-400-regular.woff") format("woff"),
+    url("./roboto-slab-400-regular.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("./roboto-slab-700.woff") format("woff"),
+    url("./roboto-slab-700.woff2") format("woff2");
+  font-weight: 400;
+}

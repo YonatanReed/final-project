@@ -1,0 +1,190 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(196, 196, 196, 0.01);
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+  padding: 0 104px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.nav_white {
+  box-shadow: inset 0px -1px 0px #d1d2d6;
+}
+
+.nav__logo {
+  text-decoration: none;
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0;
+}
+
+.nav__logo_black {
+  color: #1a1b22;
+}
+
+.nav__button {
+  display: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+  height: 100%;
+}
+
+.nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.nav__link_black {
+  color: #1a1b22;
+}
+
+.nav__link_current-white {
+  padding-top: 30px;
+  padding-bottom: 23px;
+  border-bottom: 3px solid #fff;
+}
+
+.nav__link_current-black {
+  padding-top: 30px;
+  padding-bottom: 23px;
+  border-bottom: 3px solid #1a1b22;
+}
+
+.nav__link_button {
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  padding: 12px;
+  width: 176px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.nav__link_button_black {
+  border-color: #1a1b22;
+  color: #1a1b22;
+}
+
+.nav__link-button_white-logo {
+  background-image: url('../../images/logOutWhiteLogo.svg');
+  background-repeat: no-repeat;
+  background-position: 77px 16.5px;
+  max-width: 112px;
+  text-align: left;
+  padding-left: 19px;
+}
+
+.nav__link-button_black-logo {
+  background-image: url('../../images/logoutBlackLogo.svg');
+  background-repeat: no-repeat;
+  background-position: 73px 12px;
+  max-width: 112px;
+  text-align: left;
+  padding-left: 19px;
+}
+
+@media screen and (max-width: 1270px) {
+  .nav {
+    height: 66px;
+  }
+  .nav__link_current-white {
+    padding-top: 22px;
+    padding-bottom: 17px;
+  }
+  .nav__link_current-black {
+    padding-top: 22px;
+    padding-bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .nav {
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    align-items: flex-start;
+    width: 100%;
+    box-shadow: none;
+  }
+  .nav_dark {
+    background-color: #1a1b22;
+  }
+  .nav__logo {
+    background: rgba(196, 196, 196, 0.01);
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .nav__button {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../images/burgerButton.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 0;
+    border: none;
+    transition: all 0.4s linear;
+  }
+
+  .nav__button_dark {
+    background-image: url('../../images/darkBurgerButton.svg');
+  }
+
+  .nav__button_close {
+    background-image: url('../../images/close-icon.svg');
+    background-position: center;
+    transition: all 0.4s linear;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 16px 16px 24px;
+    gap: 22px;
+    box-sizing: border-box;
+    transition: all 0.4s linear;
+    display: none;
+  }
+  .nav__link {
+    color: #fff;
+  }
+  .nav__links_open {
+    display: flex;
+  }
+  .nav__link_current-white {
+    padding: 0;
+    border: none;
+  }
+  .nav__link_current-black {
+    padding: 0;
+    border: none;
+  }
+  .nav__link-button {
+    width: 100%;
+    padding: 16px;
+  }
+}
