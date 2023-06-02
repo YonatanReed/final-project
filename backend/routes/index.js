@@ -4,7 +4,6 @@ const auth = require('../middleware/auth');
 const userRouter = require('./users');
 const articleRouter = require('./articles');
 const NotFoundError = require('../errors/not-found-error');
-
 const {
   validateLogin,
   validateCreateUser,

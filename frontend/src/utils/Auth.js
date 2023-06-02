@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://api.yonatanreed.mooo.com';
+export const BASE_URL = 'https://api.yonatanreed.mooo.com';
 // https://api.yonatanreed.mooo.com
 // http://localhost:3000
 

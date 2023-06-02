@@ -29,7 +29,7 @@ function NewsCard(props) {
     setIsShown(!isShown);
   };
 
-  const setKayword =
+  const setKeyword =
     props.card.keyword[0].toUpperCase() +
     props.card.keyword.slice(1).toLowerCase();
 
@@ -52,7 +52,7 @@ function NewsCard(props) {
       <img
         className="card__image"
         src={props.card.image}
-        alt={`${setKayword} view`}
+        alt={`${setKeyword} view`}
       ></img>
       <button
         onMouseEnter={showMassage}
@@ -71,7 +71,7 @@ function NewsCard(props) {
       )}
       {currentPage === '/saved-news' && (
         <span className="card__span card__span_type_keywords">
-          {setKayword}
+          {setKeyword}
         </span>
       )}
       <div className="card__content">

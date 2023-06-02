@@ -53,7 +53,7 @@ class MainApi {
 }
 
 export const api = new MainApi({
-  baseUrl: 'http://api.yonatanreed.mooo.com',
+  baseUrl: 'https://api.yonatanreed.mooo.com',
 });
 
 // http://localhost:3000
